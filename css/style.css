@@ -1,0 +1,89 @@
+body{
+    background-image: linear-gradient(115deg, rgba(58,58,158, 0.8), rgb(136,136,206, 0.7)), url('../images/survey-form-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: #f3f3f3;
+    margin: 0;
+}
+#main{
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+header{
+    padding-top: 0.65rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    opacity: .9;
+}
+#title{
+    margin-bottom: 0.5rem;
+    line-height: 1.2em;
+}
+#description{
+    font-size: 1.125rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+}
+#survey-form{
+    max-width: 640px;
+    background: rgba(27,27,50,0.8);
+    border-radius: 0.25rem;
+    margin: 0 auto;
+    padding: 2.5rem 2.3rem;
+}
+#survey-form > div{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+label{
+    display: flex;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+input[type="text"], input[type="email"], input[type="number"], select{
+    width: 100%;
+    height: 2.375rem;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+input[type="radio"], input[type="checkbox"]{
+    margin-right: 0.65rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+textarea{
+    min-height: 120px;
+    width: 100%;
+}
+textarea::placeholder{
+    padding-top: 0.6rem;
+}
+button{
+    width: 100%;
+    background-color: #37af65;
+    padding: 0.9rem;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    color: inherit;
+    font-size: 1rem;
+}
+p{
+    margin-top: 0;
+    font-size: 1.125rem;
+}
+::placeholder{
+    font-size: 1rem;
+    padding-left: 0.6rem;
+}
+.clue{
+    color: #e4e4e4;
+    font-size: 0.9rem;
+    margin-left: 0.25rem;
+}
