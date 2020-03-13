@@ -23,6 +23,7 @@ header{
 #title{
     margin-bottom: 0.5rem;
     line-height: 1.2em;
+    font-weight: 200;
 }
 #description{
     font-size: 1.125rem;
@@ -86,4 +87,9 @@ p{
     color: #e4e4e4;
     font-size: 0.9rem;
     margin-left: 0.25rem;
+}
+@media(max-width:800px) and (min-width:570px){
+    #survey-form{
+        margin: 0 45px;
+    }
 }
